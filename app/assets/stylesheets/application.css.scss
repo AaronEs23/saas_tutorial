@@ -52,6 +52,25 @@ h1, h2, h3 {
 .navbar-default .navbar-toggle .icon-bar {
   background-color:white;
 }
+
+.navbar-default .navbar-toggle {
+  border: none;
+  padding-top:3px;
+  padding-bottom:3px;
+  padding-left:1px;
+  padding-right:1px;
+  &:hover, &:focus {
+    background:none;
+    .icon-bar {
+    opacity:0.75;
+  }
+ }
+}
+
+
+
+
+
 // Home Page Styles
 .home-callout {
   color:white;
