@@ -95,7 +95,7 @@ GEM
     nokogiri (1.11.2-x86_64-linux)
       racc (~> 1.4)
     pg (0.18.4)
-    puma (3.4.0)
+    puma (3.12.6)
     racc (1.5.2)
     rack (2.2.3)
     rack-test (0.6.3)
@@ -186,7 +186,7 @@ DEPENDENCIES
   jquery-rails (= 4.1.1)
   listen (= 3.0.5)
   pg (= 0.18.4)
-  puma (= 3.4.0)
+  puma
   rails (= 5.0.1)
   sass-rails (= 5.0.6)
   spring
