@@ -34,12 +34,10 @@ h1, h2, h3 {
 .navbar {
   border: none;
 }
-
 .navbar-brand {
   font-family: 'Open Sans' , sans-serif;  
   font-weight: 800;
 }
-
 .navbar-default .navbar-brand,
 .navbar-default .navbar-nav>li>a {
   color:white;
@@ -48,11 +46,9 @@ h1, h2, h3 {
     opacity:0.75;
   }
 }
-
 .navbar-default .navbar-toggle .icon-bar {
   background-color:white;
 }
-
 .navbar-default .navbar-toggle {
   border: none;
   padding-top:3px;
@@ -67,14 +63,15 @@ h1, h2, h3 {
  }
 }
 
-
-
-
-
 // Home Page Styles
 .home-callout {
   color:white;
   margin-top: -20px;
   padding-top: 50px;
   padding-bottom: 100px;
+}
+
+//alert styles
+.alert-notice {
+  display: none;
 }
