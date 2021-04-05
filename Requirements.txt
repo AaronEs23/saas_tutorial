@@ -1,5 +1,5 @@
 Stripe Integration
-* (COMPLETED)Users should have a stripe customer token in the users table.
+* Users should have a stripe customer token in the users table.
 
 * JS should prevent PRO form from submitting, when user fills it out,
   and should send card info to stripe. Stripe returns a card token.
